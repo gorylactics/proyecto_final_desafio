@@ -1,0 +1,66 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #5F4B8B ;
+}
+
+.row2 {
+	/*text-align: center;*/
+}
+
+.logo{
+	width: 15rem;
+	display: block;
+	margin: 0 auto;
+	margin-top: 20%;
+	z-index: 1;
+	
+}
+/*hacer jquery para diferentes vistas, 
+cosa que el texto se vea de manera optima ya sea para desktop o mobile vistas*/
+.slogan{
+	text-align: center;
+	float: right;
+	z-index: 5;
+	margin-top: -1.4rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	padding-left: 54%;
+	color:#dddddd;
+	/*margin-left: 1rem;*/
+	/*margin-left: 44rem;*/
+}
+
+.principal{
+/*	position: absolute;*/
+	padding: 0;
+	margin:0;
+	background-color: red;
+	color:yellow;
+	/*z-index: 1;*/
+	margin-bottom:2rem;
+}
+
+.secundaria{
+	float: right;
+	/*position: relative;*/
+	padding: 0;
+	margin:0;
+	background-color:blue;
+	color:orange;
+	/*z-index: 5;*/
+	/*margin-top: -5rem;*/
+	
+
+}
+
+.terciaria{
+	float: right;
+	/*position: relative;*/
+	padding: 0;
+	margin:0;
+	background-color:green;
+	color:silver;
+	/*margin-top: -5rem;*/
+
+}
