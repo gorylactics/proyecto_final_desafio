@@ -4,10 +4,6 @@ body{
 	background-color: #5F4B8B ;
 }
 
-.row2 {
-	/*text-align: center;*/
-}
-
 .logo{
 	width: 15rem;
 	display: block;
@@ -31,28 +27,64 @@ cosa que el texto se vea de manera optima ya sea para desktop o mobile vistas*/
 	/*margin-left: 44rem;*/
 }
 
+.navbar{
+	background-color: #674caa;
+	width: 120%;
+	max-height: 3rem;
+	position: fixed;
+
+
+
+}
+
+.navbar_opcion{
+	
+	color: 	white;
+	list-style: none;
+	float: left;
+	margin-right: 0.5rem;
+display: inline-block;
+	
+}
+
+.elementos{
+	margin-left: 0%;
+}
 .principal{
-	max-width: 50%;
+
 	position: relative;
 	background-color: red;
 	border: solid 2px white;
 	
 }
+@media  { screen min 1024 en adelante
+			tablet min 768 max 1023
+			movil  min 320  max 767
+	
+}
+#encabezados{
+ 	text-align: center;
+ 	margin-top: -38%;
+
+}
 
 .segundo{
 	
-	float: right;
-	background-color: blue;
-	border: solid 10px black;
-	padding: 10px;
+	/*background-color: blue;*/
+	
+
 }
 
 .tercero{
-	position: relative;
-	display: inline-block;
-	float: right;
+	padding: 0;
+	margin:0;
+
+	
+
+	float: left;
 background-color: red;
 border: solid 2px white;
+box-sizing: border-box;
 
 
 
