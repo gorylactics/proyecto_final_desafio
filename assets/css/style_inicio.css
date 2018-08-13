@@ -32,12 +32,15 @@ cosa que el texto se vea de manera optima ya sea para desktop o mobile vistas*/
 }
 
 .principal{
-	position: absolute;
-	float: left;
+	max-width: 50%;
+	position: relative;
+	background-color: red;
+	border: solid 2px white;
+	
 }
 
 .segundo{
-	/*position: relative;*/
+	
 	float: right;
 	background-color: blue;
 	border: solid 10px black;
@@ -45,8 +48,13 @@ cosa que el texto se vea de manera optima ya sea para desktop o mobile vistas*/
 }
 
 .tercero{
+	position: relative;
 	display: inline-block;
 	float: right;
+background-color: red;
+border: solid 2px white;
+
+
 
 }
 
