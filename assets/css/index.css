@@ -20,7 +20,7 @@ body{
 .logo__slogan{
 	font-family: 'Shadows Into Light', cursive;
 	position: relative;
-	font-size: 1.5rem;
+	font-size: 1.6rem;
 	color:#cccc;
 	/*display: inline-block;*/
 	margin-left: 40rem;
@@ -40,9 +40,9 @@ body{
   
   .logo{
 
-	height: 12rem;
+	height: 16rem;
 	width: calc(122% - 20rem);
-	margin-top: 18rem;
+	margin-top: 12rem;
 	z-index: 1;
 
 
@@ -50,7 +50,7 @@ body{
 
 .logo__slogan{
 	font-family: 'Shadows Into Light', cursive;
-	font-size: 1.5rem;
+	font-size: 1.6rem;
 	color:#cccc;
 	margin-left: 22.5rem;
 	margin-top: -1.5rem;
@@ -67,10 +67,10 @@ body{
   
   .logo{
   
-	position: absolute;
-	
+	position: absolute;	
 	width: 25rem;
-	margin-top: 5rem;
+	margin-top: 1rem;
+	margin-right: 0.3rem;
 	z-index: 1;
 
 
@@ -80,11 +80,11 @@ body{
 	font-family: 'Shadows Into Light', cursive;
 	position: relative;
 	text-align: center;
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 	color:#cccc;
 	margin-left: 1rem;
 	margin-right: 1rem;
-	margin-top: 20rem;
+	margin-top: 16rem;
 	z-index: 5;
 
 }
