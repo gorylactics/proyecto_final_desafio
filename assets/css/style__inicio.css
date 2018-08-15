@@ -80,6 +80,7 @@ body{
 .footer__rrss{
 	display: block;
 	text-align:center;
+	margin-left: 1rem;
 
 }
 
@@ -173,6 +174,7 @@ body{
 .footer__rrss{
 	display: block;
 	text-align:center;
+	margin-left: 1rem;
 
 }
 
@@ -222,7 +224,7 @@ body{
 		
 	list-style: none;
 	float: left;
-	margin-left: 0.5rem;
+	margin-left: 0.427rem;
 
 	
 	
@@ -271,7 +273,8 @@ body{
 
 .footer__rrss{
 	display: block;
-	text-align:right;
+	text-align: center;
+	margin-left: 1rem;
 
 }
 
