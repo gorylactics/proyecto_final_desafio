@@ -1,71 +1,291 @@
-	body{
-		margin: 0;
-		padding: 0;
-		background-color: #5F4B8B ;
-	}
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #5F4B8B ;
+}
 
 
-	@media only screen and (min-width: 1024px) { 
+@media only screen and (min-width: 1024px) { 
 
 /*NAVBAR*/
-	.navbar{
-		position: fixed;
-		background-color: #674caa;
-		width: 102%;
-		max-height: 3rem;
-		position: fixed;
 
-	}
+body{
+	background-color: #5F4B8B;
+}
+.navbar{
+	position: fixed;
+	background-color: #674caa;
+	width: 102%;
+	max-height: 3rem;
+	
 
-	.navbar__logo--tamaño{
-		width: 3.5rem;
-		margin-left: 0.5rem;
-	}
+}
 
-	.navbar__elementos--opcion{
+.navbar__logo--tamaño{
+	
+	width: 3.5rem;
+	margin-left: 0.5rem;
+
+}
+
+.navbar__elementos--opcion{
 		
-		color: 	white;
-		list-style: none;
-		float: left;
-		margin: 1rem 0.7rem 0 0.7rem;
+	list-style: none;
+	float: left;
+	margin: 1rem 0.7rem 0 0.7rem;
+	
 		
-	} 
+} 
+
+.navbar__elementos--color-link{
+		
+	color: white;
+
+}
 
 /*/NAVBAR*/
 
+
 /*CONTENIDO*/
-	.texto{
-		margin-top: 3rem;
-	}
+	
+.texto{
+	margin-top: 3rem;
+	
+}
+
 /*/CONTENIDO*/
 
+
 /*FOOTER*/
-	.footer{
-  background-color: black;
-  position: absolute;
-  bottom: 0;
-  width: 102%;
-  height: 3rem;
+
+.footer{
+	background-color: black;
+	position: fixed;
+	bottom: 0;
+	width: 102%;
+	/*height: 4.5rem; si se usa el termino contacto */
+	height: 2.5rem;
   
+}
 
-	}
+.footer__contacto--font{
 
-	.footer__rrss--tamano{
-		margin-right: 2rem;
-		width: 1.5rem;
-		margin-top: 0.8rem;
-		float: right ;
+	
+	margin-bottom: 0.2rem;
+	text-align:center;
+	font-size: 1.3rem;
 
-	}
+}
+
+.footer__rrss{
+	display: block;
+	text-align:center;
+
+}
+
+
+.footer__rrss--tamano{
+	margin-top: 0.3rem;
+	margin-bottom: 0.3rem;
+	margin-right: 2rem;
+	width: 1.5rem;
+
+
+}
+
+} 
+/*/FOTTER y FIN MEDIA-PANTALLA-PC*/
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {  
+
+body{
+	background-color: blue;
+}		
+.navbar{
+
+	position: fixed;
+	background-color: #674caa;
+	width: 102%;
+	max-height: 3rem;
+	
+
+}
+
+.navbar__logo--tamaño{
+	
+	width: 3.5rem;
+	margin-left: 0.5rem;
+
+}
+
+.navbar__elementos--opcion{
+		
+	list-style: none;
+	float: left;
+	margin: 1rem 0.7rem 0 0.7rem;
+	
+		
+} 
+
+.navbar__elementos--color-link{
+		
+	color: white;
+
+}
+
+/*/NAVBAR*/
+
+
+/*CONTENIDO*/
+	
+.texto{
+	margin-top: 3rem;
+	
+}
+
+/*/CONTENIDO*/
+
+
+/*FOOTER*/
+
+.footer{
+	background-color: black;
+	position: fixed;
+	bottom: 0;
+	width: 102%;
+	/*height: 4.5rem; si se usa el termino contacto */
+	height: 2.5rem;
+  
+}
+
+.footer__contacto--font{
+
+	
+	margin-bottom: 0.2rem;
+	text-align:center;
+	font-size: 1.3rem;
+
+}
+
+.footer__rrss{
+	display: block;
+	text-align:center;
+
+}
+
+
+.footer__rrss--tamano{
+	margin-top: 0.3rem;
+	margin-bottom: 0.3rem;
+	margin-right: 2rem;
+	width: 1.5rem;
+
+
+}
+
+}
 /*/FOTTER*/
 
-	}
+	
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {  
 
 
-	@media only screen and (min-width: 768px) and (max-width: 1023px) {  
+/*NAVBAR*/
+body{
+	background-color: red;
+}
+.navbar{
+	position: fixed;
+	background-color: #674caa;
+	width: 104%;
+	max-height: 3rem;
+	
 
-	}
+}
 
-	@media only screen and (min-width: 320px) and (max-width: 767px) {  
+.navbar__logo--tamaño{
+	
+	width: 3.5rem;
+	margin-left: 0.5rem;
 
-	}
+}
+.navbar__elementos{
+	margin:0;
+	padding: 0;
+}
+
+.navbar__elementos--opcion{
+		
+	list-style: none;
+	float: left;
+	margin-top: 0.5rem;
+	margin-left: 0.8rem;
+	margin-bottom: 0.5rem;
+	
+	
+		
+} 
+
+.navbar__elementos--color-link{
+		
+	color: white;
+
+}
+
+/*/NAVBAR*/
+
+
+/*CONTENIDO*/
+	
+.texto{
+	margin-top: 3rem;
+	
+}
+
+/*/CONTENIDO*/
+
+
+/*FOOTER*/
+
+.footer{
+	background-color: black;
+	position: fixed;
+	bottom: 0;
+	width: 104%;
+	/*height: 4.5rem; si se usa el termino contacto */
+	height: 2.5rem;
+  
+}
+
+.footer__contacto--font{
+
+	
+	margin-bottom: 0.2rem;
+	text-align:center;
+	font-size: 1.3rem;
+
+}
+
+.footer__rrss{
+	display: block;
+	text-align:right;
+
+}
+
+
+.footer__rrss--tamano{
+	margin-top: 0.3rem;
+	margin-bottom: 0.3rem;
+	margin-right: 2rem;
+	width: 1.5rem;
+
+
+}
+
+}
+
+/*/FOTTER*/	
