@@ -203,7 +203,7 @@ body{
 .navbar{
 	position: fixed;
 	background-color: #674caa;
-	width: 104%;
+	width: 104.2%;
 	max-height: 3rem;
 	
 
@@ -224,7 +224,7 @@ body{
 		
 	list-style: none;
 	float: left;
-	margin-left: 0.427rem;
+	margin-left: 0.15rem;
 
 	
 	
@@ -256,7 +256,7 @@ body{
 	background-color: black;
 	position: fixed;
 	bottom: 0;
-	width: 104%;
+	width: 104.2%;
 	/*height: 4.5rem; si se usa el termino contacto */
 	height: 2.5rem;
   
@@ -274,7 +274,7 @@ body{
 .footer__rrss{
 	display: block;
 	text-align: center;
-	margin-left: 1.3em;
+	margin-left: 1.4em;
 
 }
 
