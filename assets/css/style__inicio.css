@@ -9,9 +9,7 @@ body{
 
 /*NAVBAR*/
 
-body{
-	background-color: #5F4B8B;
-}
+
 .navbar{
 	position: fixed;
 	background-color: #674caa;
@@ -102,9 +100,7 @@ body{
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {  
 
-body{
-	background-color: blue;
-}		
+	
 .navbar{
 
 	position: fixed;
@@ -197,9 +193,7 @@ body{
 
 
 /*NAVBAR*/
-body{
-	background-color: red;
-}
+
 .navbar{
 	position: fixed;
 	background-color: #674caa;
@@ -212,7 +206,7 @@ body{
 .navbar__logo--tamaño{
 	
 	width: 3.3rem;
-	margin-left: 0.5rem;
+	/*margin-left: 0.5rem;*/
 
 }
 .navbar__elementos{
@@ -225,6 +219,7 @@ body{
 	list-style: none;
 	float: left;
 	margin-left: 0.24rem;
+	margin-right: 0.12rem;
 
 	
 	
