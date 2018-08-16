@@ -37,7 +37,7 @@ body{
 
 .navbar__elementos--color-link{
 		
-	color: white;
+	color: #D0D3D4  ;
 
 }
 
@@ -45,9 +45,9 @@ body{
 
 
 /*CONTENIDO*/
-	
-.texto{
-	margin-top: 3rem;
+.contenido	{
+	margin-top: 4rem;
+	text-align: center;
 	
 }
 
@@ -57,7 +57,7 @@ body{
 /*FOOTER*/
 
 .footer{
-	background-color: black;
+	background-color: #151515;
 	position: fixed;
 	bottom: 0;
 	width: 102%;
@@ -129,7 +129,7 @@ body{
 
 .navbar__elementos--color-link{
 		
-	color: white;
+	color: #D0D3D4  ;
 
 }
 
@@ -149,7 +149,7 @@ body{
 /*FOOTER*/
 
 .footer{
-	background-color: black;
+	background-color: #151515;
 	position: fixed;
 	bottom: 0;
 	width: 102%;
@@ -218,17 +218,14 @@ body{
 		
 	list-style: none;
 	float: left;
-	margin-left: 0.24rem;
-	margin-right: 0.12rem;
-
-	
-	
+	margin-left: 0.040rem;
+	margin-right: 0.3rem;	
 		
 } 
 
 .navbar__elementos--color-link{
 		
-	color: white;
+	color: #D0D3D4  ;
 
 }
 
@@ -237,7 +234,7 @@ body{
 
 /*CONTENIDO*/
 	
-.texto{
+.contenido{
 	margin-top: 3rem;
 	
 }
@@ -248,7 +245,7 @@ body{
 /*FOOTER*/
 
 .footer{
-	background-color: black;
+	background-color: #151515;
 	position: fixed;
 	bottom: 0;
 	width: 104.2%;
