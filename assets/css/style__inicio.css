@@ -310,9 +310,9 @@ body{
 }
 
 .contenido__logo--fondo{
-	width: 10rem;
+	width: 20rem;
 	top: 1rem;
-	left: calc(50% - 5rem);
+	left: calc(50% - 10rem);
 }
 
 /*/CONTENIDO*/
