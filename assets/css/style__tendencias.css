@@ -77,8 +77,13 @@ body{
 	float: right;
 	left: -13.24rem;
 	top: -1.1rem;
+	color:#D0D3D4
 	
 
+}
+
+.descripcion__intro--span{
+	color: #DF7401;
 }
 /*/CONTENIDO*/
 
@@ -203,9 +208,14 @@ body{
 	position: relative;
 	font-family: 'Poiret One', cursive;
 	top: -1.1rem;
-	
+	color:#D0D3D4;
+	/*color de texto quizas*/
 
 }
+.descripcion__intro--span{
+	color: #DF7401;
+}
+
 /*/CONTENIDO*/
 
 /*FOOTER*/
