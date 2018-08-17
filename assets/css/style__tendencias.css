@@ -224,4 +224,120 @@ body{
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {  
 
+	.navbar{
+	position: fixed;
+	background-color: #674caa;
+	width: 102%;
+	max-height: 3rem;
+	z-index: 1;
+	
+
+}
+
+.navbar__logo--tamaño{
+	
+	width: 3.3rem;
+	/*margin-left: 0.5rem;*/
+
+}
+.navbar__elementos{
+	margin:0;
+	padding: 0;
+}
+
+.navbar__elementos--opcion{
+	font-family: 'Poiret One', cursive;
+	list-style: none;
+	float: left;
+	margin-left: 0.3rem;
+	margin-right: 0.48rem;	
+		
+} 
+
+.navbar__elementos--color-link{
+		
+	color: #D0D3D4  ;
+
+}
+
+/*/NAVBAR*/
+
+
+
+/*CONTENIDO*/
+
+
+.descripcion{
+	position: absolute;
+	top: 4rem;
+	
+
+
+
+}
+
+.descripcion__titulo{
+	background-color: #FE2E2E;
+	width: 7.65rem;
+	height: 5.8rem;
+	font-family: 'Poiret One', cursive;
+
+}
+
+.descripcion__titulo--fuente{
+	font-size: 6rem;
+	
+
+}
+
+.descripcion__intro{
+	position: relative;
+	font-family: 'Poiret One', cursive;
+	float: right;
+	left: -13.24rem;
+	top: -1.1rem;
+	
+
+}
+/*/CONTENIDO*/
+
+/*FOOTER*/
+
+
+.footer{
+	background-color: #151515;
+	position: fixed;
+	bottom: 0;
+	width: 102%;
+	height: 2.5rem;
+  
+}
+
+.footer__contacto--font{
+
+	
+	margin-bottom: 0.2rem;
+	text-align:center;
+	font-size: 1.3rem;
+
+}
+
+.footer__rrss{
+	display: block;
+	text-align: center;
+	margin-left: 1.4em;
+
+}
+
+
+.footer__rrss--tamano{
+	margin-top: 0.3rem;
+	margin-bottom: 0.3rem;
+	margin-right: 2rem;
+	width: 1.5rem;
+
+
+}
+
+
 }
