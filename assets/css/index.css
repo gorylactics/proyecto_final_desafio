@@ -18,11 +18,10 @@ body{
 }
 
 .logo__slogan{
-	font-family: 'Shadows Into Light', cursive;
+	font-family: 'Poiret One', cursive;
 	position: relative;
 	font-size: 1.6rem;
 	color:#cccc;
-	/*display: inline-block;*/
 	margin-left: 40rem;
 	margin-top: 24.85rem;
 	z-index: 5;
@@ -30,7 +29,7 @@ body{
 }
 
 .admira{
-	color:orange;
+	color:#DF7401;
 }
 
 } 
@@ -49,7 +48,7 @@ body{
 }
 
 .logo__slogan{
-	font-family: 'Shadows Into Light', cursive;
+	font-family: 'Poiret One', cursive;
 	font-size: 1.6rem;
 	color:#cccc;
 	margin-left: 22.5rem;
@@ -59,7 +58,7 @@ body{
 }
 
 .admira{
-	color:orange;
+	color:#DF7401;
 }
 }  
 
@@ -77,7 +76,7 @@ body{
 }
 
 .logo__slogan{
-	font-family: 'Shadows Into Light', cursive;
+	font-family: 'Poiret One', cursive;
 	position: relative;
 	text-align: center;
 	font-size: 1.3rem;
@@ -90,7 +89,7 @@ body{
 }
 
 .admira{
-	color:orange;
+	color:#DF7401;
 }
 }
 
