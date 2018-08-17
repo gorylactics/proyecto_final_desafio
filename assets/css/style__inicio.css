@@ -52,7 +52,9 @@ body{
 .contenido{
 	
 	position: absolute;
-	top	: 4rem;
+	top: 5rem;
+	right: 0.5rem;
+	
 }
 
 .contenido__parrafo	{
@@ -61,12 +63,14 @@ body{
 	color:#D0D3D4;
 	font-size: 2rem;
 	text-align: center;
+	top	: 5rem;
 	left: 0.5rem;
 
 }
 
 .contenido__parrafo--span{
 	color:#DF7401;
+
 
 }
 
@@ -136,7 +140,6 @@ body{
 	max-height: 3rem;
 	z-index: 1;
 	
-	
 
 }
 
@@ -169,7 +172,7 @@ body{
 
 .contenido{
 	position: absolute;
-	margin-top: 5rem;
+	top: 5rem;
 }
 
 .contenido__parrafo	{
@@ -179,7 +182,8 @@ body{
 	font-size: 2rem;
 	text-align: center;
 	left: 0.5rem;
-	
+
+
 	
 }
 
@@ -289,6 +293,8 @@ body{
 .contenido{
 
 	position: absolute;
+	top: 5rem;
+	left: 1rem;
 }
 .contenido__parrafo	{
 	
