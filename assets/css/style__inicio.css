@@ -295,7 +295,7 @@ body{
 	
 	font-family: 'Poiret One', cursive;
 	color:#D0D3D4;
-	font-size: 1.4rem;
+	font-size: 1.2rem;
 	text-align: center;
 	top	: 4rem;
 	left: 0.5rem;
@@ -312,7 +312,7 @@ body{
 .contenido__logo--fondo{
 	width: 10rem;
 	top: 1rem;
-	left: calc(50% - 6rem);
+	left: calc(50% - 5rem);
 }
 
 /*/CONTENIDO*/
