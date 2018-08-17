@@ -293,7 +293,7 @@ body{
 .contenido{
 
 	position: absolute;
-	top: 5rem;
+	top: 4rem;
 	left: 1rem;
 }
 .contenido__parrafo	{
@@ -315,9 +315,9 @@ body{
 }
 
 .contenido__logo--fondo{
-	width: 12rem;
+	width: 10rem;
 	top: 1rem;
-	left: calc(50% - 6rem);
+	left: calc(50% - 5rem);
 }
 
 /*/CONTENIDO*/
