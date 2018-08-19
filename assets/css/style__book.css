@@ -1,0 +1,62 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #5F4B8B;
+}
+
+@media only screen and (min-width: 1024px) {  
+
+/*NAVBAR*/
+
+.navbar{
+	position: fixed;
+	background-color: #674caa;
+	width: 102%;
+	max-height: 3rem;
+	z-index: 1;
+	
+
+}
+
+.navbar__logo--tamaño{
+	
+	width: 3.3rem;
+	/*margin-left: 0.5rem;*/
+
+}
+.navbar__elementos{
+	margin:0;
+	padding: 0;
+}
+
+.navbar__elementos--opcion{
+	font-family: 'Poiret One', cursive;
+	list-style: none;
+	float: left;
+	margin-left: 0.3rem;
+	margin-right: 0.48rem;	
+		
+} 
+
+.navbar__elementos--color-link{
+		
+	color: #D0D3D4  ;
+
+}
+
+/*/NAVBAR*/
+
+/*vontenido*/
+
+.galeria{
+
+
+
+	background-color: blue;
+	width: 14%;
+	height: 50px; 
+	float:right; 
+	margin: 1px;
+
+}
+/*/contenido*/
