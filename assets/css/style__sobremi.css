@@ -47,40 +47,6 @@ body{
 
 
 /*CONTENIDO*/
-
-.contenido{
-	
-	position: absolute;
-	top: 5rem;
-	right: 0.5rem;
-	
-}
-
-.contenido__parrafo	{
-	
-	font-family: 'Poiret One', cursive;
-	color:#D0D3D4;
-	font-size: 2rem;
-	text-align: center;
-	top	: 5rem;
-	left: 0.5rem;
-
-}
-
-.contenido__parrafo--span{
-	
-	color:#DF7401;
-
-}
-
-.contenido__logo--fondo{
-	
-	width: 20rem;
-	top: 2rem;
-	left: calc(50% - 9rem);
-	
-}
-
 /*/CONTENIDO*/
 
 
@@ -122,8 +88,8 @@ body{
 
 
 }
-/*/FOTTER*/
-} 
+}
+/*/FOTTER*/ 
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {  
 
@@ -165,35 +131,6 @@ body{
 
 
 /*CONTENIDO*/
-
-.contenido{
-	
-	position: absolute;
-	top: 5rem;
-}
-
-.contenido__parrafo	{
-	
-	font-family: 'Poiret One', cursive;
-	color:#D0D3D4;
-	font-size: 2rem;
-	text-align: center;
-	left: 0.5rem;
-	
-}
-
-
-.contenido__parrafo--span{
-
-	color:#DF7401;
-}
-
-.contenido__logo--fondo{
-	width: 20rem;
-	top: 2rem;
-	left: calc(50% - 9rem);
-
-}
 /*/CONTENIDO*/
 
 
@@ -235,8 +172,8 @@ body{
 	width: 1.5rem;
 
 }
-/*/FOTTER*/
 }
+/*/FOTTER*/
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {  
 
@@ -285,47 +222,6 @@ body{
 
 
 /*CONTENIDO*/
-
-.contenido{
-
-	position: absolute;
-	top: 4rem;
-	left: 1rem;
-
-}
-
-.contenido__parrafo	{
-	
-	font-family: 'Poiret One', cursive;
-	color:#D0D3D4;
-	font-size: 1.3rem;
-	text-align: center;
-	top	: 4rem;
-	left: 0.5rem;
-	padding-right: 2rem;
-
-}
-
-
-.contenido__parrafo--span{
-
-	color:#DF7401;
-
-}
-
-.contenido__logo--fondo{
-	
-	width: 10rem;
-	top: -2rem;
-	left: calc(50% - 7rem);
-
-}
-
-.contenido__parrafo{
-	
-	bottom: 3rem;
-
-}
 /*/CONTENIDO*/
 
 /*FOOTER*/
@@ -366,6 +262,5 @@ body{
 
 
 }
-/*/FOTTER*/	
 }
-
+/*/FOTTER*/	
