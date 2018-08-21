@@ -404,7 +404,7 @@ body{
 .galeria__imagen--formato--b{
 
 	background-color: green;
-	width:10rem;
+	width:9rem;
 	height: 4.7rem;	
 
 
@@ -413,7 +413,7 @@ body{
 .galeria__imagen--formato--c{
 	
 	background-color: pink;
-	width: 21.5rem;
+	width: 19.5rem;
 	height: 23rem;
 	margin-bottom: 3rem;
 /*	margin-top: -54rem;*/
