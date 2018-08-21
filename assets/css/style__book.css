@@ -17,7 +17,6 @@ body{
 	max-height: 3rem;
 	z-index: 1;
 	
-
 }
 
 .navbar__logo--tamaño{
@@ -34,7 +33,6 @@ body{
 	float: left;
 	margin: 1rem 0.7rem 0 0.7rem;
 	
-		
 } 
 
 .navbar__elementos--color-link{
@@ -45,6 +43,39 @@ body{
 /*/NAVBAR*/
 
 /*CONTENIDO*/
+
+.header{
+	
+	position: absolute;
+	top: 4rem;
+
+}
+
+.header__titulo{
+
+	background-color: #FE2E2E;
+	width: 7.65rem;
+	height: 5.8rem;
+	font-family: 'Poiret One', cursive;
+	font-size: 6rem;
+
+}
+
+.header__descripcion{
+	position: relative;
+	font-family: 'Poiret One', cursive;
+	float: left;
+	padding-right: 40rem;
+	color:#D0D3D4;
+	left: 11.9rem;
+	top: -0.85rem;
+
+}
+
+.galeria{
+	
+	top: 14.5rem;
+}
 
 .galeria__imagen{
 
@@ -58,7 +89,7 @@ body{
 	
 	background-color: red;
 	width: 15rem;
-	height: 30rem;
+	height: 23rem;
 
 }
 
@@ -67,27 +98,20 @@ body{
 
 	background-color: green;
 	width:17rem;
-	height: 10rem;	
+	height: 11rem;	
 
 
 }
 
 .galeria__imagen--formato--c{
+	
 	background-color: pink;
 	width: 15rem;
-	height: 21rem;	
-	margin-top: -11rem;
+	height: 23rem;	
+	margin-top: -12rem;
 
 }
 
-.galeria__imagen--formato--d{
-	
-	background-color: orange;
-	width: 51rem;
-	height: 8rem;
-	
-}
-}
 /*/CONTENIDO*/
 
 /*FOOTER*/
@@ -98,7 +122,7 @@ body{
 	position: fixed;
 	bottom: 0;
 	width: 102%;
-	height: 2.5rem;
+	height: 3rem;
   
 }
 
@@ -172,6 +196,75 @@ body{
 /*/NAVBAR*/
 
 /*CONTENIDO*/
+
+.header{
+	
+	position: absolute;
+	top: 4rem;
+
+}
+
+.header__titulo{
+
+	background-color: #FE2E2E;
+	width: 7.65rem;
+	height: 5.8rem;
+	font-family: 'Poiret One', cursive;
+	font-size: 6rem;
+
+}
+
+.header__descripcion{
+	position: relative;
+	font-family: 'Poiret One', cursive;
+	float: left;
+	padding-right: 12rem;
+	color:#D0D3D4;
+	left: 11.9rem;
+	top: -0.85rem;
+
+}
+
+.galeria{
+	
+	top: 14.5rem;
+}
+
+.galeria__imagen{
+
+	position: relative;
+	float:left; 
+	margin: 0.5rem;
+
+}
+
+.galeria__imagen--formato--a{
+	
+	background-color: red;
+	width: 11rem;
+	height: 23rem;
+
+}
+
+
+.galeria__imagen--formato--b{
+
+	background-color: green;
+	width:10rem;
+	height: 11rem;	
+
+
+}
+
+.galeria__imagen--formato--c{
+	
+	background-color: pink;
+	width: 11rem;
+	height: 23rem;	
+	margin-top: -24rem;
+	margin-left: 34rem;
+
+}
 /*/CONTENIDO*/
 
 /*FOOTER*/
@@ -258,6 +351,75 @@ body{
 /*/NAVBAR*/
 
 /*CONTENIDO*/
+.header{
+	
+	position: absolute;
+	top: 4rem;
+
+}
+
+.header__titulo{
+
+	background-color: #FE2E2E;
+	width: 7.65rem;
+	height: 5.8rem;
+	font-family: 'Poiret One', cursive;
+	font-size: 6rem;
+
+}
+
+.header__descripcion{
+	position: relative;
+	font-family: 'Poiret One', cursive;
+	float: right;
+	padding-right: 3rem;
+	color:#D0D3D4;
+	left: 3.5rem;
+	top: -0.85rem;
+
+}
+
+.galeria{
+	
+	top: 17rem;
+}
+
+.galeria__imagen{
+
+	position: relative;
+	float:left; 
+	margin: 0.2rem;
+
+}
+
+.galeria__imagen--formato--a{
+	
+	background-color: red;
+	width: 11rem;
+	height: 20rem;
+
+}
+
+
+.galeria__imagen--formato--b{
+
+	background-color: green;
+	width:10rem;
+	height: 4.7rem;	
+
+
+}
+
+.galeria__imagen--formato--c{
+	
+	background-color: pink;
+	width: 21.5rem;
+	height: 23rem;
+	margin-bottom: 3rem;
+/*	margin-top: -54rem;*/
+	/*margin-left: 34rem;*/
+
+}
 /*/CONTENIDO*/
 
 /*FOOTER*/
