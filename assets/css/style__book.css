@@ -2,7 +2,7 @@ body{
 	margin: 0;
 	padding: 0;
 	background-color: #5F4B8B;
-
+	
 }
 
 @media only screen and (min-width: 1024px) {  
@@ -72,44 +72,56 @@ body{
 
 }
 
-.galeria{
-	
+.book{
+	position: absolute;
 	top: 14.5rem;
-}
-
-.galeria__imagen{
-
-	position: relative;
-	float:left; 
-	margin: 0.5rem;
+	left: 0.5rem;
 
 }
 
-.galeria__imagen--formato--a{
+.book__imagenes--1{	
+
+	position: absolute;
+	width: 100%;
+}
+
+.book__imagenes--2{
 	
-	background-color: red;
-	width: 15rem;
-	height: 23rem;
-
-}
-
-
-.galeria__imagen--formato--b{
-
-	background-color: green;
-	width:17rem;
-	height: 11rem;	
-
-
-}
-
-.galeria__imagen--formato--c{
+	width:38vh;
+	margin-left: 19.55rem;
+	margin-top: -0.05rem;
 	
-	background-color: pink;
-	width: 15rem;
-	height: 23rem;	
-	margin-top: -12rem;
+	
+}
 
+.book__imagenes--3{
+	margin-left: 36.28rem;
+	width:42.2vh;	
+	margin-top: -12.2rem;
+
+}
+
+.book__imagenes--4{
+	margin-left: 19.55rem;
+	width:38vh;
+	margin-top:-1.5rem;
+	
+	
+}
+
+.book__imagenes--5{
+	
+	margin-top: -12.8rem;
+	margin-left: 36.25rem;
+	width:43.3vh;
+
+}
+
+.book__imagenes--6{
+	margin-left: 54.83rem;
+	width: 47vh;
+	margin-top: -23.1rem;
+	
 }
 
 /*/CONTENIDO*/
@@ -225,45 +237,56 @@ body{
 
 }
 
-.galeria{
-	
+.book{
+	position: absolute;
 	top: 14.5rem;
-}
-
-.galeria__imagen{
-
-	position: relative;
-	float:left; 
-	margin: 0.5rem;
+	left: 0.5rem;
 
 }
 
-.galeria__imagen--formato--a{
+.book__imagenes--1{	
+
+	position: absolute;
+	width: 45vh;
+}
+
+.book__imagenes--2{
 	
-	background-color: red;
-	width: 11rem;
-	height: 23rem;
-
-}
-
-
-.galeria__imagen--formato--b{
-
-	background-color: green;
-	width:10rem;
-	height: 11rem;	
-
-
-}
-
-.galeria__imagen--formato--c{
+	width:38vh;
+	margin-left: 19.55rem;
+	margin-top: -0.05rem;
 	
-	background-color: pink;
-	width: 11rem;
-	height: 23rem;	
-	margin-top: -24rem;
-	margin-left: 34rem;
+	
+}
 
+.book__imagenes--3{
+	margin-left: 36.28rem;
+	width:42.2vh;	
+	margin-top: -12.2rem;
+
+}
+
+.book__imagenes--4{
+	margin-left: 19.55rem;
+	width:38vh;
+	margin-top:-1.5rem;
+	
+	
+}
+
+.book__imagenes--5{
+	
+	margin-top: -12.8rem;
+	margin-left: 36.25rem;
+	width:43.3vh;
+
+}
+
+.book__imagenes--6{
+	margin-left: 54.83rem;
+	width: 47vh;
+	margin-top: -23.1rem;
+	
 }
 /*/CONTENIDO*/
 
@@ -379,47 +402,63 @@ body{
 
 }
 
-.galeria{
-	left: 1.5rem;
+
+
+.book{
+	position: absolute;
+	top: 19rem;
 	
-	top: 17rem;
+
 }
 
-.galeria__imagen{
+.book__imagenes--1{	
 
 	position: relative;
-	float:left; 
-	margin: 0.2rem;
-
+	width: 54.5vh;
+	margin-bottom: 1vh;
 }
 
-.galeria__imagen--formato--a{
+.book__imagenes--2{
 	
-	background-color: red;
-	width: 10rem;
-	height: 20rem;
-
-}
-
-
-.galeria__imagen--formato--b{
-
-	background-color: green;
-	width:9rem;
-	height: 4.7rem;	
-
-
-}
-
-.galeria__imagen--formato--c{
 	
-	background-color: pink;
-	width: 19.5rem;
-	height: 23rem;
-	margin-bottom: 3rem;
-/*	margin-top: -54rem;*/
-	/*margin-left: 34rem;*/
+	width: 54.5vh;
+	margin-bottom: 1vh;
 
+	
+	
+}
+
+.book__imagenes--3{
+	
+	width:54.5vh;	
+margin-bottom: 1vh;
+
+
+}
+
+.book__imagenes--4{
+
+	width: 54.5vh;
+margin-bottom: 1vh;
+
+	
+	
+}
+
+.book__imagenes--5{
+	
+
+	width: 54.5vh;
+margin-bottom: 1vh;
+
+}
+
+.book__imagenes--6{
+
+	width: 54.5vh;
+	margin-bottom: 4rem;
+	
+	
 }
 /*/CONTENIDO*/
 
