@@ -1,0 +1,359 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #5F4B8B ;
+}
+
+@media only screen and (min-width: 1024px) {  
+
+/*NAVBAR*/
+
+.navbar{
+	
+	position: fixed;
+	background-color: #674caa;
+	width: 102%;
+	max-height: 3rem;
+	z-index: 1;
+	
+
+}
+
+.navbar__logo--tamaño{
+	
+	width: 3.5rem;
+	margin-left: 0.5rem;
+
+}
+
+.navbar__elementos--opcion{
+	
+	font-family: 'Poiret One', cursive;
+	list-style: none;
+	float: left;
+	margin: 1rem 0.7rem 0 0.7rem;
+	
+		
+} 
+
+.navbar__elementos--color-link{
+		
+	color: #D0D3D4  ;
+
+}
+
+/*/NAVBAR*/
+
+/*CONTENIDO*/
+.formato__titulo--configuracion{
+	
+	margin-top: 4.5rem;
+	font-family: 'Poiret One', cursive;
+	color: #D0D3D4;
+	text-align: center;
+	font-size: 8vh;
+
+}
+
+.formato__imagen--tamaño{
+
+	width: 80vh;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.formato__noticia--parrafo{
+	font-family: 'Poiret One', cursive;
+	color: #D0D3D4;
+	font-size: 4vh;
+	
+	margin-top: 1.5rem;
+
+}
+
+.volver{
+	
+	font-size: 1rem;
+	margin-bottom: 5rem;
+	text-align: right;
+}
+/*/CONTENIDO*/
+
+/*FOOTER*/
+
+.footer{
+	
+	background-color: #151515;
+	position: fixed;
+	bottom: 0;
+	width: 102%;
+	height: 2.5rem;
+  
+}
+
+.footer__contacto--font{
+
+	margin-bottom: 0.2rem;
+	text-align:center;
+	font-size: 1.3rem;
+
+}
+
+.footer__rrss{
+	
+	display: block;
+	text-align:center;
+	margin-left: 1.33rem;
+
+}
+
+
+.footer__rrss--tamano{
+	
+	margin-top: 0.3rem;
+	margin-bottom: 0.3rem;
+	margin-right: 2rem;
+	width: 1.5rem;
+
+
+}
+}
+/*/FOTTER*/ 
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {  
+
+	.navbar{
+
+	position: fixed;
+	background-color: #674caa;
+	width: 102%;
+	max-height: 3rem;
+	z-index: 1;
+	
+
+}
+
+.navbar__logo--tamaño{
+	
+	width: 3.5rem;
+	margin-left: 0.5rem;
+
+}
+
+.navbar__elementos--opcion{
+	
+	font-family: 'Poiret One', cursive;
+	list-style: none;
+	float: left;
+	margin: 1rem 0.7rem 0 0.7rem;
+			
+} 
+
+.navbar__elementos--color-link{
+		
+	color: #D0D3D4  ;
+
+}
+
+/*/NAVBAR*/
+
+/*CONTENIDO*/
+.formato__titulo--configuracion{
+	
+	margin-top: 4.5rem;
+	font-family: 'Poiret One', cursive;
+	color: #D0D3D4;
+	text-align: center;
+	font-size: 8vh;
+
+}
+
+.formato__imagen--tamaño{
+
+	width: 80vh;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.formato__noticia--parrafo{
+	font-family: 'Poiret One', cursive;
+	color: #D0D3D4;
+	font-size: 4vh;
+	
+	margin-top: 1.5rem;
+
+}
+
+.volver{
+	
+	font-size: 1rem;
+	margin-bottom: 5rem;
+	text-align: right;
+}
+/*/CONTENIDO*/
+/*FOOTER*/
+
+.footer{
+	
+	background-color: #151515;
+	position: fixed;
+	bottom: 0;
+	width: 102%;
+	height: 2.5rem;
+  
+}
+
+.footer__contacto--font{
+
+	margin-bottom: 0.2rem;
+	text-align:center;
+	font-size: 1.3rem;
+
+}
+
+.footer__rrss{
+	
+	display: block;
+	text-align:center;
+	margin-left: 1.3em;
+
+}
+
+
+.footer__rrss--tamano{
+	
+	margin-top: 0.3rem;
+	margin-bottom: 0.3rem;
+	margin-right: 2rem;
+	width: 1.5rem;
+
+}
+}
+/*/FOTTER*/
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {  
+
+	/*NAVBAR*/
+
+.navbar{
+	
+	position: fixed;
+	background-color: #674caa;
+	width: 104.2%;
+	max-height: 3rem;
+	z-index: 1;
+	
+}
+
+.navbar__logo--tamaño{
+	
+	width: 3.3rem;
+
+}
+
+.navbar__elementos{
+	
+	margin:0;
+	padding: 0;
+}
+
+.navbar__elementos--opcion{
+	
+	font-family: 'Poiret One', cursive;
+	list-style: none;
+	float: left;
+	margin-left: 0.3rem;
+	margin-right: 0.48rem;	
+		
+} 
+
+.navbar__elementos--color-link{
+		
+	color: #D0D3D4  ;
+
+}
+
+/*/NAVBAR*/
+
+/*CONTENIDO*/
+.formato__titulo--configuracion{
+	
+	margin-top: 4.5rem;
+	font-family: 'Poiret One', cursive;
+	color: #D0D3D4;
+	text-align: center;
+	font-size: 8vh;
+
+}
+
+.formato__imagen--tamaño{
+
+	width: 50vh;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.formato__noticia--parrafo{
+	font-family: 'Poiret One', cursive;
+	color: #D0D3D4;
+	font-size: 3vh;
+	margin-left: 1rem;
+	margin-right: 0.5rem;
+	margin-top: 1rem;
+
+}
+
+.volver{
+	
+	font-size: 1rem;
+	margin-bottom: 2.5rem;
+	text-align: center;
+}
+/*/CONTENIDO*/
+
+
+/*FOOTER*/
+
+.footer{
+	
+	background-color: #151515;
+	position: fixed;
+	bottom: 0;
+	width: 104.2%;
+	height: 2.5rem;
+  
+}
+
+.footer__contacto--font{
+
+	margin-bottom: 0.2rem;
+	text-align:center;
+	font-size: 1.3rem;
+
+}
+
+.footer__rrss{
+	
+	display: block;
+	text-align: center;
+	margin-left: 1.4em;
+
+}
+
+
+.footer__rrss--tamano{
+	
+	margin-top: 0.3rem;
+	margin-bottom: 0.3rem;
+	margin-right: 2rem;
+	width: 1.5rem;
+
+
+}
+}
+/*/FOTTER*/	
