@@ -72,6 +72,11 @@ body{
 
 }
 
+.video{
+
+margin-left: calc(100% / 2 - 160px) ;
+}
+
 .volver{
 	
 	font-size: 1rem;
@@ -185,6 +190,12 @@ body{
 	margin-top: 1.5rem;
 
 }
+
+.video{
+
+margin-left: calc(100% / 2 - 160px) ;
+}
+
 
 .volver{
 	
@@ -307,6 +318,10 @@ body{
 	margin-top: 1rem;
 
 }
+.video{
+
+margin-left: 2rem;}
+
 
 .volver{
 	
