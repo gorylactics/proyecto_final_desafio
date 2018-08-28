@@ -149,15 +149,15 @@ body{
 }
 
 .logo{
-	width: 35vh;
+	width: 20vh;
 	display: block;
 	margin-top: 1rem;
-	margin-left: 4rem;
+	margin-left: 8rem;
 }
 
 .volver{
 	color:#D0D3D4;
-	margin-left: 6.5rem;
+	margin-left: 2.5rem;
 	font-family: 'Poiret One', cursive;
 }
 }
