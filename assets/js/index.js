@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	//aca se ingresa todo el codigo
-	alert('hola');
+	// alert('hola');
 
 	setTimeout(function(){
 		var url = "inicio.html"; 

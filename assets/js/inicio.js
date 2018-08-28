@@ -1,3 +1,3 @@
 $(document).ready(function(){
-	alert('pagina inicio')
+	// alert('pagina inicio')
 });

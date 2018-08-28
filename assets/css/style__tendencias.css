@@ -90,19 +90,19 @@ body{
 }
 .noticias__principal{
 
-	/*position: relative;*/
+	position: absolute;
 	float: left;
 	width: 35rem;
-	height: 15rem;
-	/*background-color: red;*/
+	/*height: 15rem;*/
+	
 }
 
 .img__tamaño{
 	
-	padding-left: -30rem;
+	margin-left: -0.95rem;
 	padding-right: 1rem;
-	width: 35rem;
-	height: 15rem;
+	width: 83vh;
+	height: 34.3vh;
 
 }
 

@@ -47,6 +47,69 @@ body{
 
 
 /*CONTENIDO*/
+
+
+
+
+.header{
+	
+	position: absolute;
+	top: 4rem;
+	font-family: 'Poiret One', cursive;
+}
+
+.header__titulo{
+
+	background-color: #FE2E2E;
+	width: 7.65rem;
+	height: 5.8rem;
+	
+	
+
+}
+
+.header__titulo--fuente{
+	
+	font-size: 6rem;
+	margin-left: 1.2rem;
+
+}
+
+.header__intro--parrafo{
+	
+	position: relative;
+	float: left;
+	color:#D0D3D4;
+	left: 8rem;
+	top: -0.85rem;
+	font-size: 1.3rem;
+
+}
+
+.perfil__imagen{
+	
+	width: 40vh;
+	display: block;
+	float: right;
+	margin-top: -15rem;
+}
+.llamado{
+	margin-top: 35rem;
+	font-size: 1.5rem;
+	margin-left: 8.5rem;
+}
+
+.habilidades{
+	margin-left: 6rem;
+}
+
+.habilidades__logo{
+	/*margin-top: 34.7rem;*/
+	float: left;
+	width: 4rem;
+	margin-left:2.5rem;
+
+}
 /*/CONTENIDO*/
 
 
@@ -131,6 +194,67 @@ body{
 
 
 /*CONTENIDO*/
+
+
+.header{
+	
+	position: absolute;
+	top: 4rem;
+	font-family: 'Poiret One', cursive;
+}
+
+.header__titulo{
+
+	background-color: #FE2E2E;
+	width: 7.65rem;
+	height: 5.8rem;
+	
+	
+
+}
+
+.header__titulo--fuente{
+	
+	font-size: 6rem;
+	margin-left: 1.2rem;
+
+}
+
+.header__intro--parrafo{
+	
+	position: relative;
+	float: left;
+	color:#D0D3D4;
+	left: 8rem;
+	top: -0.85rem;
+	font-size: 1.3rem;
+
+}
+
+.perfil__imagen{
+	
+	width: 40vh;
+	display: block;
+	float: right;
+	margin-top: -15rem;
+}
+.llamado{
+	margin-top: 35rem;
+	font-size: 1.5rem;
+	margin-left: 8.5rem;
+}
+
+.habilidades{
+	margin-left: 6rem;
+}
+
+.habilidades__logo{
+	/*margin-top: 34.7rem;*/
+	float: left;
+	width: 4rem;
+	margin-left:2.5rem;
+
+}
 /*/CONTENIDO*/
 
 
@@ -222,6 +346,64 @@ body{
 
 
 /*CONTENIDO*/
+
+
+.header{
+	
+	position: absolute;
+	top: 4rem;
+	font-family: 'Poiret One', cursive;
+}
+
+.header__titulo{
+
+	background-color: #FE2E2E;
+	width: 7.65rem;
+	height: 5.8rem;
+	
+	
+
+}
+
+.header__titulo--fuente{
+	
+	font-size: 6rem;
+	margin-left: 1.2rem;
+
+}
+
+.header__intro--parrafo{
+	
+	position: relative;
+	float: left;
+	color:#D0D3D4;
+	top: 1rem;
+	font-size: 1.3rem;
+	text-align: justify;
+
+}
+
+.perfil__imagen{
+	
+	width: 40vh;
+	display: block;
+	margin-top: 1rem;
+	margin-left: 4.5rem;
+}
+.llamado{
+	margin-top: 50rem;
+	font-size: 1.3rem;
+	margin-left: 0.3rem;
+}
+
+
+.habilidades__logo{
+		
+	float: left;
+	width: 3rem;
+	
+
+}
 /*/CONTENIDO*/
 
 /*FOOTER*/

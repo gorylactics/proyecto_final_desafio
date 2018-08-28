@@ -1,14 +1,22 @@
 $(document).ready(function(){
-	alert('pagina book')
+	// alert('pagina book')
+
+	$('#book').click(function(evt){
+
+		evt.preventDefault();
+		evt.stopPropagation();
+		$("#book").toggleClass('book__click');
+	
+
+	});
+
+	// $('#book').click(function(evt){
+		// evt.preventDefault();
+		// evt.stopPropagation();
+
+	// 	$(this).toggleClass('book__click');
+
+
 });
 
 
-/*    position: fixed;
-    top: 10px;
-    bottom: 10px;
-    z-index: 999;
-    left: 50%;
-    transform: translateX(-50%);
-    height: 90vh;
-
-    */
