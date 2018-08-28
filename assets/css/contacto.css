@@ -20,7 +20,7 @@ body{
 
 .form-control{
 	width: 60%;
-	margin-top: 2rem;
+	margin-top: 1rem;
 	margin-left: 17rem;
 	text-align: center;
 	font-family: 'Poiret One', cursive;
@@ -43,15 +43,15 @@ body{
 }
 
 .logo{
-	width: 50vh;
+	width: 40vh;
 	display: block;
 	margin-top: 1rem;
-	margin-left: 35%;
+	margin-left: 38%;
 }
 
 .volver{
 	color:#D0D3D4;
-	margin-left: 11rem;
+	margin-left: 8.5rem;
 	font-family: 'Poiret One', cursive;
 }
 }
@@ -126,7 +126,7 @@ body{
 
 .form-control{
 	width: 60%;
-	margin-top: 2rem;
+	margin-top: 1rem;
 	margin-left: 5rem;
 	text-align: center;
 	font-family: 'Poiret One', cursive;
@@ -149,15 +149,15 @@ body{
 }
 
 .logo{
-	width: 50vh;
+	width: 35vh;
 	display: block;
 	margin-top: 1rem;
-	margin-left: 2rem;
+	margin-left: 4rem;
 }
 
 .volver{
 	color:#D0D3D4;
-	margin-left: 9rem;
+	margin-left: 6.5rem;
 	font-family: 'Poiret One', cursive;
 }
 }
