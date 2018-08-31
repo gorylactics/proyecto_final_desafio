@@ -1,35 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Simple Map</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+	<link rel="shortcut icon" href="./assets/img/inicio/logo2.png">
+	<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Bad+Script|Poiret+One|Quicksand" rel="stylesheet">
+	<!-- <meta http-equiv="refresh" content="5;url=inicio.html"> -->
+	<title>Admira | Art direction</title>
+</head>
+
+  <body>
+    <title>UBICACION</title>
     <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
-    <style>
-      /* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
-      #map {
-        height: 100%;
-      }
-      /* Optional: Makes the sample page fill the window. */
-      html, body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
-    </style>
-  </head>
-  <body>
-    <div id="map"></div>
-    <script>
-      var map;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 33.5152902, lng: -70.7541239},
-          zoom: 15
-        });
-      }
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCb5YMQVD-OlKPsyJ7focr6kK18orhHvNk&callback=initMap"
-    async defer></script>
+    <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCb5YMQVD-OlKPsyJ7focr6kK18orhHvNk&q=Santiago,+Región+Metropolitana,+Chile" width="400" frameborder="0" style="border:0" allowfullscreen></iframe>
   </body>
 </html>
+

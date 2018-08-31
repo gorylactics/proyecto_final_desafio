@@ -51,14 +51,14 @@ body{
 
 
 
-.header{
+.seccion{
 	
 	position: absolute;
 	top: 4rem;
 	font-family: 'Poiret One', cursive;
 }
 
-.header__titulo{
+.seccion__titulo{
 
 	background-color: #FE2E2E;
 	width: 7.65rem;
@@ -68,14 +68,14 @@ body{
 
 }
 
-.header__titulo--fuente{
+.seccion__titulo--fuente{
 	
 	font-size: 6rem;
 	margin-left: 1.2rem;
 
 }
 
-.header__intro--parrafo{
+.seccion__intro--parrafo{
 	
 	position: relative;
 	float: left;
@@ -196,14 +196,14 @@ body{
 /*CONTENIDO*/
 
 
-.header{
+.seccion{
 	
 	position: absolute;
 	top: 4rem;
 	font-family: 'Poiret One', cursive;
 }
 
-.header__titulo{
+.seccion__titulo{
 
 	background-color: #FE2E2E;
 	width: 7.65rem;
@@ -213,14 +213,14 @@ body{
 
 }
 
-.header__titulo--fuente{
+.seccion__titulo--fuente{
 	
 	font-size: 6rem;
 	margin-left: 1.2rem;
 
 }
 
-.header__intro--parrafo{
+.seccion__titulo--parrafo{
 	
 	position: relative;
 	float: left;
@@ -348,14 +348,14 @@ body{
 /*CONTENIDO*/
 
 
-.header{
+.seccion{
 	
 	position: absolute;
 	top: 4rem;
 	font-family: 'Poiret One', cursive;
 }
 
-.header__titulo{
+.seccion__titulo{
 
 	background-color: #FE2E2E;
 	width: 7.65rem;
@@ -365,7 +365,7 @@ body{
 
 }
 
-.header__titulo--fuente{
+.seccion__titulo--fuente{
 	
 	font-size: 6rem;
 	margin-left: 1.2rem;

@@ -1,0 +1,1318 @@
+body{
+
+	margin: 0;
+	padding: 0;
+	background-color: #5F4B8B ;
+}
+
+@media only screen and (min-width: 1024px) {  
+
+/*NAVBAR-PARA-TODAS-LAS-SECCIONES*/
+.navbar{
+	
+	position: fixed;
+	background-color: #674caa;
+	width: 102%;
+	max-height: 3rem;
+	z-index: 1;
+	
+}
+
+.navbar__logo--tamaño{
+	
+	width: 3.5rem;
+	margin-left: 0.5rem;
+
+}
+
+.navbar__elementos--opcion{
+	
+	font-family: 'Poiret One', cursive;
+	list-style: none;
+	float: left;
+	margin: 1rem 0.7rem 0 0.7rem;
+			
+} 
+
+.navbar__elementos--color-link{
+		
+	color: #D0D3D4  ;
+
+}
+/*/NAVBAR-PARA-TODAS-LAS-SECCIONES*/
+
+/*FOOTER-PARA-TODAS-LAS-SECCIONES*/
+.footer{
+	
+	background-color: #151515;
+	position: fixed;
+	bottom: 0;
+	width: 102%;
+	height: 2.5rem;
+  
+}
+
+.footer__contacto--font{
+
+	margin-bottom: 0.2rem;
+	text-align:center;
+	font-size: 1.3rem;
+
+}
+
+.footer__rrss{
+	
+	display: block;
+	text-align:center;
+	margin-left: 1.33rem;
+
+}
+
+
+.footer__rrss--tamano{
+	
+	margin-top: 0.3rem;
+	margin-bottom: 0.3rem;
+	margin-right: 2rem;
+	width: 1.5rem;
+
+}
+/*/FOOTER-PARA-TODAS-LAS-SECCIONES*/
+
+/*INDEX.HTML*/
+.logo{
+	
+	position: absolute;
+	height: 15rem;
+	width: calc(115% - 20rem);
+	margin-top: 11rem;
+	z-index: 1;
+
+}
+
+.logo__slogan{
+	
+	font-family: 'Poiret One', cursive;
+	position: relative;
+	font-size: 1.6rem;
+	color:#cccc;
+	margin-left: 40rem;
+	margin-top: 24.85rem;
+	z-index: 5;
+
+}
+
+.admira{
+	
+	color:#DF7401;
+}
+/*/INDEX.HTML*/
+
+/*INICIO.HTML*/
+/*CONTENIDO*/
+.contenido{
+	
+	position: absolute;
+	top: 5rem;
+	right: 0.5rem;
+	
+}
+
+.contenido__parrafo	{
+	
+	font-family: 'Poiret One', cursive;
+	color:#D0D3D4;
+	font-size: 2rem;
+	text-align: center;
+	top	: 5rem;
+	left: 0.5rem;
+
+}
+
+.contenido__parrafo--span{
+	
+	color:#DF7401;
+
+}
+
+.contenido__logo--fondo{
+	
+	width: 20rem;
+	top: 2rem;
+	left: calc(50% - 9rem);
+	
+}
+/*/CONTENIDO*/
+/*/INICIO.HTML*/
+
+/*TENDENCIAS.HTML*/
+/*CONTENIDO*/
+.descripcion{
+	position: absolute;
+	top: 4rem;
+	
+}
+
+.descripcion__titulo{
+	background-color: #FE2E2E;
+	width: 7.65rem;
+	height: 5.8rem;
+	font-family: 'Poiret One', cursive;
+
+}
+
+.descripcion__titulo--fuente{
+	
+	font-size: 6rem;
+	
+}
+
+.descripcion__intro{
+	
+	position: relative;
+	font-family: 'Poiret One', cursive;
+	float: right;
+	left: -13.24rem;
+	top: -0.5rem;
+	color:#D0D3D4
+	
+}
+
+.descripcion__intro--span{
+	
+	color: #DF7401;
+
+}
+
+.noticias{
+	
+	/*position: absolute;*/
+	/*top:18rem;*/
+
+	
+}
+.col-lg-4{
+	
+	top: 16rem;
+
+}
+
+.card{
+	margin-top: 0.5rem;
+	margin-left: -0.6rem;
+	margin-right: -0.6rem;
+
+}
+/*/CONTENIDOS*/
+/*/TENDENCIAS.HTML*/
+
+/*BOOK.HTML*/
+/*CONTENIDO*/
+.titulo-contenedor{
+	
+	position: absolute;
+	top: 4rem;
+
+}
+
+.titulo-contenedor__titulo{
+
+	background-color: #FE2E2E;
+	width: 7.65rem;
+	height: 5.8rem;
+	font-family: 'Poiret One', cursive;
+	font-size: 6rem;
+
+}
+
+.titulo-contenedor__descripcion{
+	position: relative;
+	font-family: 'Poiret One', cursive;
+	float: left;
+	padding-right: 40rem;
+	color:#D0D3D4;
+	left: 11.9rem;
+	top: -0.85rem;
+
+}
+
+.book{
+	position: absolute;
+	top: 14.5rem;
+	left: 0.5rem;
+
+}
+
+.lista__imagenes{
+	list-style: none;
+}
+.book__click{
+
+	width: 400px;
+	
+	position: fixed;
+	top: -5rem;
+	z-index: 999;
+	transform: translateX(100%);
+	background-color: black;
+border: 1px red solid;
+
+
+/*	position: fixed;
+    top: 10px;
+    bottom: 10px;
+    z-index: 999;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 90vh;
+    background-color: black;*/
+
+    
+}
+/*/CONTENIDO*/
+/*BOOK.HTML*/
+
+/*SOBREMI.HTML*/
+/*CONTENIDO*/
+.seccion{
+	
+	position: absolute;
+	top: 4rem;
+	font-family: 'Poiret One', cursive;
+}
+
+.seccion__titulo{
+
+	background-color: #FE2E2E;
+	width: 7.65rem;
+	height: 5.8rem;
+	
+	
+
+}
+
+.seccion__titulo--fuente{
+	
+	font-size: 6rem;
+	margin-left: 1.2rem;
+
+}
+
+.seccion__intro--parrafo{
+	
+	position: relative;
+	float: left;
+	color:#D0D3D4;
+	left: 8rem;
+	top: -0.85rem;
+	font-size: 1.3rem;
+
+}
+
+.perfil__imagen{
+	
+	width: 40vh;
+	display: block;
+	float: right;
+	margin-top: -15rem;
+}
+.llamado{
+	margin-top: 35rem;
+	font-size: 1.5rem;
+	margin-left: 8.5rem;
+}
+
+.habilidades{
+	margin-left: 6rem;
+}
+
+.habilidades__logo{
+	/*margin-top: 34.7rem;*/
+	float: left;
+	width: 4rem;
+	margin-left:2.5rem;
+
+}
+/*/CONTENIDO*/
+/*/SOBREMI.HTML*/
+
+/*FORMATO_NOTICIAS.HTML*/
+/*CONTENIDO*/
+.formato__titulo--configuracion{
+	
+	margin-top: 4.5rem;
+	font-family: 'Poiret One', cursive;
+	color: #D0D3D4;
+	text-align: center;
+	font-size: 8vh;
+
+}
+
+.formato__imagen--tamaño{
+
+	width: 80vh;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.formato__noticia--parrafo{
+	font-family: 'Poiret One', cursive;
+	color: #D0D3D4;
+	font-size: 4vh;
+	
+	margin-top: 1.5rem;
+
+}
+
+.video{
+
+margin-left: calc(100% / 2 - 160px) ;
+}
+
+.volver{
+	
+	font-size: 1rem;
+	margin-bottom: 5rem;
+	text-align: right;
+}
+/*/CONTENIDO*/
+/*FORMATO_NOTICIAS.HTML*/
+
+/*CONTACTO.HTML*/
+/*CONTENIDO*/
+.form-group{
+	
+	top: 3rem;	
+}
+
+.form-group__titulo{
+	
+	color:#D0D3D4;
+	font-size: 2rem;
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+}
+
+.form-control{
+	width: 60%;
+	margin-top: 1rem;
+	margin-left: 17rem;
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+}
+
+.form-control--mensaje{
+	width: 60%;
+	margin-left: 17rem;
+	height: 20vh;
+	border-radius: 5px 5px 5px 5px  ;
+	text-align: center;
+	font-size: 1rem;
+	font-family: 'Poiret One', cursive;
+}
+
+.btn{
+	background-color: #5F4B8B;
+	margin-left: 48%;
+	font-family: 'Poiret One', cursive;
+}
+
+.logo{
+	width: 40vh;
+	display: block;
+	margin-top: 1rem;
+	margin-left: 38%;
+}
+
+.volver{
+	color:#D0D3D4;
+	margin-left: 8.5rem;
+	font-family: 'Poiret One', cursive;
+}
+/*/CONTENIDO*/
+/*/CONTACTO.HTML*/
+
+/*UBICACION.HTML*/
+/*CONTANIDO*/
+/*CREAR EL CONTENIDO*/
+/*/CONTENIDO*/
+/*/UBICACION.HTML*/
+
+} /*FINAL DEL PRIMER MEDIA QUERY*/
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {  
+
+/*NAVBAR-PARA-TODAS-LAS-SECCIONES*/
+.navbar{
+
+	position: fixed;
+	background-color: #674caa;
+	width: 102%;
+	max-height: 3rem;
+	z-index: 1;
+	
+}
+
+.navbar__logo--tamaño{
+	
+	width: 3.5rem;
+	margin-left: 0.5rem;
+
+}
+
+.navbar__elementos--opcion{
+	
+	font-family: 'Poiret One', cursive;
+	list-style: none;
+	float: left;
+	margin: 1rem 0.7rem 0 0.7rem;
+			
+} 
+
+.navbar__elementos--color-link{
+		
+	color: #D0D3D4  ;
+
+}
+/*/NAVBAR-PARA-TODAS-LAS-SECCIONES*/
+
+/*FOOTER-PARA-TODAS-LAS-SECCIONES*/
+.footer{
+	
+	background-color: #151515;
+	position: fixed;
+	bottom: 0;
+	width: 102%;
+	height: 2.5rem;
+  
+}
+
+.footer__contacto--font{
+
+	margin-bottom: 0.2rem;
+	text-align:center;
+	font-size: 1.3rem;
+
+}
+
+.footer__rrss{
+	
+	display: block;
+	text-align:center;
+	margin-left: 1.3em;
+
+}
+
+.footer__rrss--tamano{
+	
+	margin-top: 0.3rem;
+	margin-bottom: 0.3rem;
+	margin-right: 2rem;
+	width: 1.5rem;
+
+}
+/*/FOOTER-PARA-TODAS-LAS-SECCIONES*/
+
+/*INDEX.HTML*/
+.logo{
+
+	height: 16rem;
+	width: calc(122% - 20rem);
+	margin-top: 12rem;
+	z-index: 1;
+
+}
+
+.logo__slogan{
+	
+	font-family: 'Poiret One', cursive;
+	font-size: 1.6rem;
+	color:#cccc;
+	margin-left: 22.5rem;
+	margin-top: -1.5rem;
+	z-index: 5;
+
+}
+
+.admira{
+	
+	color:#DF7401;
+}
+/*/INDEX.HTML*/
+
+/*INICIO.HTML*/
+/*CONTENIDO*/
+.contenido{
+	
+	position: absolute;
+	top: 5rem;
+}
+
+.contenido__parrafo	{
+	
+	font-family: 'Poiret One', cursive;
+	color:#D0D3D4;
+	font-size: 2rem;
+	text-align: center;
+	left: 0.5rem;
+	
+}
+
+
+.contenido__parrafo--span{
+
+	color:#DF7401;
+}
+
+.contenido__logo--fondo{
+	width: 20rem;
+	top: 2rem;
+	left: calc(50% - 9rem);
+
+}
+/*/CONTENIDO*/
+/*/INICIO.HTML*/
+
+/*TENDENCIAS.HTML*/
+/*CONTENIDO*/
+.descripcion{
+	position: absolute;
+	top: 4rem;
+	
+}
+
+.descripcion__titulo{
+	background-color: #FE2E2E;
+	width: 7.65rem;
+	height: 5.8rem;
+	font-family: 'Poiret One', cursive;
+
+}
+
+.descripcion__titulo--fuente{
+	
+	font-size: 6rem;
+	
+}
+
+.descripcion__intro{
+	
+	position: relative;
+	font-family: 'Poiret One', cursive;
+	float: right;
+	left: -13.24rem;
+	top: -0.5rem;
+	color:#D0D3D4
+	
+}
+
+.descripcion__intro--span{
+	
+	color: #DF7401;
+
+}
+
+.noticias{
+	
+	/*position: absolute;*/
+	/*top:18rem;*/
+
+	
+}
+.col-lg-4{
+	
+	top: 16rem;
+
+}
+
+.card{
+	margin-top: 0.5rem;
+	margin-left: -0.6rem;
+	margin-right: -0.6rem;
+
+}
+/*/CONTENIDOS*/
+/*/TENDENCIAS.HTML*/
+
+/*BOOK.HTML*/
+/*CONTENIDO*/
+.titulo-contenedor{
+	
+	position: absolute;
+	top: 4rem;
+
+}
+
+.titulo-contenedor__titulo{
+
+	background-color: #FE2E2E;
+	width: 7.65rem;
+	height: 5.8rem;
+	font-family: 'Poiret One', cursive;
+	font-size: 6rem;
+
+}
+
+.titulo-contenedor__descripcion{
+	position: relative;
+	font-family: 'Poiret One', cursive;
+	float: left;
+	padding-right: 12rem;
+	color:#D0D3D4;
+	left: 11.9rem;
+	top: -0.85rem;
+
+}
+
+.book{
+	position: absolute;
+	top: 14.5rem;
+	left: 0.5rem;
+
+}
+
+
+.lista__imagenes{
+	list-style: none;
+}
+.book__click{
+
+	width: 400px;
+	
+	position: fixed;
+	top: -5rem;
+	z-index: 999;
+	transform: translateX(100%);
+	background-color: black;
+border: 1px red solid;
+
+
+/*	position: fixed;
+    top: 10px;
+    bottom: 10px;
+    z-index: 999;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 90vh;
+    background-color: black;*/
+
+}
+/*/CONTENIDO*/
+/*BOOK.HTML*/
+
+/*SOBREMI.HTML*/
+/*CONTENIDO*/
+.seccion{
+	
+	position: absolute;
+	top: 4rem;
+	font-family: 'Poiret One', cursive;
+}
+
+.seccion__titulo{
+
+	background-color: #FE2E2E;
+	width: 7.65rem;
+	height: 5.8rem;
+	
+	
+
+}
+
+.seccion__titulo--fuente{
+	
+	font-size: 6rem;
+	margin-left: 1.2rem;
+
+}
+
+.seccion__intro--parrafo{
+	
+	position: relative;
+	float: left;
+	color:#D0D3D4;
+	left: 8rem;
+	top: -0.85rem;
+	font-size: 1.3rem;
+
+}
+
+.perfil__imagen{
+	
+	width: 40vh;
+	display: block;
+	float: right;
+	margin-top: -15rem;
+}
+.llamado{
+	margin-top: 35rem;
+	font-size: 1.5rem;
+	margin-left: 8.5rem;
+}
+
+.habilidades{
+	margin-left: 6rem;
+}
+
+.habilidades__logo{
+	/*margin-top: 34.7rem;*/
+	float: left;
+	width: 4rem;
+	margin-left:2.5rem;
+
+}
+/*/CONTENIDO*/
+/*/SOBREMI.HTML*/
+
+/*FORMATO_NOTICIAS.HTML*/
+/*CONTENIDO*/
+.formato__titulo--configuracion{
+	
+	margin-top: 4.5rem;
+	font-family: 'Poiret One', cursive;
+	color: #D0D3D4;
+	text-align: center;
+	font-size: 8vh;
+
+}
+
+.formato__imagen--tamaño{
+
+	width: 80vh;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.formato__noticia--parrafo{
+	font-family: 'Poiret One', cursive;
+	color: #D0D3D4;
+	font-size: 4vh;
+	
+	margin-top: 1.5rem;
+
+}
+
+.video{
+
+margin-left: calc(100% / 2 - 160px) ;
+}
+
+
+.volver{
+	
+	font-size: 1rem;
+	margin-bottom: 5rem;
+	text-align: right;
+}
+/*/CONTENIDO*/
+/*FORMATO_NOTICIAS.HTML*/
+
+/*CONTACTO.HTML*/
+/*CONTENIDO*/
+.form-group{
+	
+	top: 3rem;	
+}
+
+.form-group__titulo{
+	
+	color:#D0D3D4;
+	font-size: 2rem;
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+}
+
+.form-control{
+	width: 60%;
+	margin-top: 2rem;
+	margin-left: 17rem;
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+}
+
+.form-control--mensaje{
+	width: 60%;
+	margin-left: 17rem;
+	height: 20vh;
+	border-radius: 5px 5px 5px 5px  ;
+	text-align: center;
+	font-size: 1rem;
+	font-family: 'Poiret One', cursive;
+}
+
+.btn{
+	background-color: #5F4B8B;
+	margin-left: 48%;
+	font-family: 'Poiret One', cursive;
+}
+
+.logo{
+	width: 50vh;
+	display: block;
+	margin-top: 1rem;
+	margin-left: 35%;
+}
+.volver{
+	color:#D0D3D4;
+	margin-left: 11rem;
+	font-family: 'Poiret One', cursive;
+}
+/*/CONTENIDO*/
+/*/CONTACTO.HTML*/
+
+/*UBICACION.HTML*/
+/*CONTANIDO*/
+/*CREAR EL CONTENIDO*/
+/*/CONTENIDO*/
+/*/UBICACION.HTML*/
+
+} /*FINAL DEL SEGUNDO MEDIA QUERY*/
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {  
+
+/*NAVBAR-PARA-TODAS-LAS-SECCIONES*/
+.navbar{
+	
+	position: fixed;
+	background-color: #674caa;
+	width: 104.2%;
+	max-height: 3rem;
+	z-index: 1;
+	
+}
+
+.navbar__logo--tamaño{
+	
+	width: 3.3rem;
+
+}
+
+.navbar__elementos{
+	
+	margin:0;
+	padding: 0;
+}
+
+.navbar__elementos--opcion{
+	
+	font-family: 'Poiret One', cursive;
+	list-style: none;
+	float: left;
+	margin-left: 0.3rem;
+	margin-right: 0.48rem;	
+		
+} 
+
+.navbar__elementos--color-link{
+		
+	color: #D0D3D4  ;
+
+}
+/*/NAVBAR-PARA-TODAS-LAS-SECCIONES*/
+
+/*FOOTER-PARA-TODAS-LAS-SECCIONES*/
+.footer{
+	
+	background-color: #151515;
+	position: fixed;
+	bottom: 0;
+	width: 104.2%;
+	height: 2.5rem;
+  
+}
+
+.footer__contacto--font{
+
+	margin-bottom: 0.2rem;
+	text-align:center;
+	font-size: 1.3rem;
+
+}
+
+.footer__rrss{
+	
+	display: block;
+	text-align: center;
+	margin-left: 1.4em;
+
+}
+
+.footer__rrss--tamano{
+	
+	margin-top: 0.3rem;
+	margin-bottom: 0.3rem;
+	margin-right: 2rem;
+	width: 1.5rem;
+
+}
+/*/FOOTER-PARA-TODAS-LAS-SECCIONES*/
+
+/*INDEX.HTML*/
+.logo{
+  
+	position: absolute;	
+	width: 25rem;
+	margin-top: 1rem;
+	margin-right: 0.3rem;
+	z-index: 1;
+
+}
+
+.logo__slogan{
+	font-family: 'Poiret One', cursive;
+	position: relative;
+	text-align: center;
+	font-size: 1.3rem;
+	color:#cccc;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	margin-top: 16rem;
+	z-index: 5;
+
+}
+
+.admira{
+	color:#DF7401;
+}
+/*/INDEX.HTML*/
+
+/*INICIO.HTML*/
+/*CONTENIDO*/
+.contenido{
+
+	position: absolute;
+	top: 4rem;
+	left: 1rem;
+
+}
+
+.contenido__parrafo	{
+	
+	font-family: 'Poiret One', cursive;
+	color:#D0D3D4;
+	font-size: 1.3rem;
+	text-align: center;
+	top	: 4rem;
+	left: 0.5rem;
+	padding-right: 2rem;
+
+}
+
+
+.contenido__parrafo--span{
+
+	color:#DF7401;
+
+}
+
+.contenido__logo--fondo{
+	
+	width: 10rem;
+	top: -2rem;
+	left: calc(50% - 7rem);
+
+}
+
+.contenido__parrafo{
+	
+	bottom: 3rem;
+
+}
+/*/CONTENIDO*/
+/*/INICIO.HTML*/
+
+/*TENDENCIAS.HTML*/
+/*CONTENIDO*/
+.descripcion{
+	position: absolute;
+	top: 4rem;
+	
+}
+
+.descripcion__titulo{
+	background-color: #FE2E2E;
+	width: 7.65rem;
+	height: 5.8rem;
+	font-family: 'Poiret One', cursive;
+
+}
+
+.descripcion__titulo--fuente{
+	
+	font-size: 6rem;
+	
+}
+
+.descripcion__intro{
+	
+	position: relative;
+	font-family: 'Poiret One', cursive;
+	float: right;
+	left: -13.24rem;
+	top: -0.5rem;
+	color:#D0D3D4
+	
+}
+
+.descripcion__intro--span{
+	
+	color: #DF7401;
+
+}
+
+.noticias{
+	
+	/*position: absolute;*/
+	/*top:18rem;*/
+
+	
+}
+.col-lg-4{
+	
+	top: 16rem;
+
+}
+
+.card{
+	margin-top: 0.5rem;
+	margin-left: -0.6rem;
+	margin-right: -0.6rem;
+
+}
+/*/CONTENIDOS*/
+/*/TENDENCIAS.HTML*/
+
+/*BOOK.HTML*/
+/*CONTENIDO*/
+.titulo-contenedor{
+	
+	position: absolute;
+	top: 4rem;
+
+}
+
+.titulo-contenedor__titulo{
+
+	background-color: #FE2E2E;
+	width: 7.65rem;
+	height: 5.8rem;
+	font-family: 'Poiret One', cursive;
+	font-size: 6rem;
+
+}
+
+.titulo-contenedor__descripcion{
+	position: relative;
+	font-family: 'Poiret One', cursive;
+	float: right;
+	padding-right: 3rem;
+	color:#D0D3D4;
+	left: 3.5rem;
+	top: -0.85rem;
+
+}
+
+
+
+.book{
+	position: absolute;
+	top: 19rem;
+	
+
+}
+
+
+.lista__imagenes{
+	list-style: none;
+}
+.book__click{
+
+	width: 400px;
+	
+	position: fixed;
+	top: -5rem;
+	z-index: 999;
+	transform: translateX(100%);
+	background-color: black;
+	border: 1px red solid;
+
+
+/*	position: fixed;
+    top: 10px;
+    bottom: 10px;
+    z-index: 999;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 90vh;
+    background-color: black;*/
+
+    
+}
+/*/CONTENIDO*/
+/*BOOK.HTML*/
+
+/*SOBREMI.HTML*/
+/*CONTENIDO*/
+.seccion{
+	
+	position: absolute;
+	top: 4rem;
+	font-family: 'Poiret One', cursive;
+}
+
+.seccion__titulo{
+
+	background-color: #FE2E2E;
+	width: 7.65rem;
+	height: 5.8rem;
+	
+	
+
+}
+
+.seccion__titulo--fuente{
+	
+	font-size: 6rem;
+	margin-left: 1.2rem;
+
+}
+
+.seccion__intro--parrafo{
+	
+	position: relative;
+	float: left;
+	color:#D0D3D4;
+	left: 8rem;
+	top: -0.85rem;
+	font-size: 1.3rem;
+
+}
+
+.perfil__imagen{
+	
+	width: 40vh;
+	display: block;
+	float: right;
+	margin-top: -15rem;
+}
+.llamado{
+	margin-top: 35rem;
+	font-size: 1.5rem;
+	margin-left: 8.5rem;
+}
+
+.habilidades{
+	margin-left: 6rem;
+}
+
+.habilidades__logo{
+	/*margin-top: 34.7rem;*/
+	float: left;
+	width: 4rem;
+	margin-left:2.5rem;
+
+}
+/*/CONTENIDO*/
+/*/SOBREMI.HTML*/
+
+/*FORMATO_NOTICIAS.HTML*/
+/*CONTENIDO*/
+.formato__titulo--configuracion{
+	
+	margin-top: 4.5rem;
+	font-family: 'Poiret One', cursive;
+	color: #D0D3D4;
+	text-align: center;
+	font-size: 8vh;
+
+}
+
+.formato__imagen--tamaño{
+
+	width: 50vh;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.formato__noticia--parrafo{
+	font-family: 'Poiret One', cursive;
+	color: #D0D3D4;
+	font-size: 3vh;
+	margin-left: 1rem;
+	margin-right: 0.5rem;
+	margin-top: 1rem;
+
+}
+.video{
+
+margin-left: 2rem;}
+
+
+.volver{
+	
+	font-size: 1rem;
+	margin-bottom: 2.5rem;
+	text-align: center;
+}
+/*/CONTENIDO*/
+/*FORMATO_NOTICIAS.HTML*/
+
+/*CONTACTO.HTML*/
+/*CONTENIDO*/
+.form-group{
+	
+	top: 3rem;	
+}
+
+.form-group__titulo{
+	
+	color:#D0D3D4;
+	font-size: 2rem;
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+}
+
+.form-control{
+	width: 60%;
+	margin-top: 1rem;
+	margin-left: 5rem;
+	text-align: center;
+	font-family: 'Poiret One', cursive;
+}
+
+.form-control--mensaje{
+	width: 60%;
+	margin-left: 5rem;
+	height: 20vh;
+	border-radius: 5px 5px 5px 5px  ;
+	text-align: center;
+	font-size: 1rem;
+	font-family: 'Poiret One', cursive;
+}
+
+.btn{
+	background-color: #5F4B8B;
+	margin-left: 10.5rem;
+	font-family: 'Poiret One', cursive;
+}
+
+.logo{
+	width: 20vh;
+	display: block;
+	margin-top: 1rem;
+	margin-left: 8rem;
+}
+
+.volver{
+	color:#D0D3D4;
+	margin-left: 2.5rem;
+	font-family: 'Poiret One', cursive;
+}
+/*/CONTENIDO*/
+/*/CONTACTO.HTML*/
+
+} /*FINAL DEL TERCER MEDIA QUERY*/
